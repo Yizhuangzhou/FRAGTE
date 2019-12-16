@@ -7,7 +7,7 @@ If you use FRAGTE in your publication, please cite:
 # Usage
 1. Fragmenting phase for references/Queries
 	
-perl RepZvalue.pl [GenomeInfo file] [output
+	perl RepZvalue.pl [GenomeInfo file] [output
 	
 	[GenomeInfo file] has 8 fields, including:
 	Assembly_assession\tspecies_taxid\torganism_name\tinfraspecific_name\tassembly_level\tChromosome size\tfile for Chromosome\tfile for 	Plasmid
@@ -16,9 +16,10 @@ perl RepZvalue.pl [GenomeInfo file] [output
 
 2. Determining phase
 	
-perl Pairs_byFRAGTE.pl [Ref RepZvalue][Query RepZvalue][output]
-	[Ref Fragmenting] the output file for reference genome info file from step 1.
-	[Query Fragmenting] the output file for Query genome info file from step 1.
+	perl Pairs_byFRAGTE.pl [Ref RepZvalue][Query RepZvalue][output]
+	
+	[Ref RepZvalue] the output file for reference genome info file from step 1.
+	[Query RepZvalue] the output file for Query genome info file from step 1.
 
 # Note
 All scripts are in Bin directory, and all tested data are in Data directory.
