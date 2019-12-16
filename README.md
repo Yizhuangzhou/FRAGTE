@@ -19,6 +19,7 @@ If you use FRAGTE in your publication, please cite:
 	perl Pairs_byFRAGTE.pl [Ref RepZvalue][Query RepZvalue][output]
 	
 	[Ref RepZvalue] the output file for reference genome info file from step 1.
+	
 	[Query RepZvalue] the output file for Query genome info file from step 1.
 
 # Note
