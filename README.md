@@ -53,13 +53,11 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 	
 	perl Scripts/Simulated_TETRA_Performance.pl [Data/Simulated_IntraSpecies.xls][TETRA.list][FRAGTE_Sensitivity.xls][output|Sensitivity][output|numstat][output|specificity]
 	
-	Note: 
+	Note: the output file of TETRA should be named as: Ref_P*_Query_P#_TETRA.xls (*, % of reference genomes; #, % of query genome). For example, for references extrating 10% of genomes and queries extrating 20% of genomes, the output file of determining phase is Ref_P10_Query_P20_TETRA.xls.
 	
-	1) the output file of TETRA should be named as: Ref_P*_Query_P#_TETRA.xls (*, % of reference genomes; #, % of query genome). For example, for references extrating 10% of genomes and queries extrating 20% of genomes, the output file of determining phase is Ref_P10_Query_P20_TETRA.xls.
+	[TETRA.list] contaning the files for all output files for TETRA; one line for one file.
 	
-	2) [TETRA.list] contaning the files for all output files for TETRA; one line for one file.
-	
-	3) [FRAGTE_Sensitivity.xls] the output file for FRAGTE sensitivity
+	[FRAGTE_Sensitivity.xls] the output file for FRAGTE sensitivity
 
 ## Real genome
 1. FRAGTE Performance
