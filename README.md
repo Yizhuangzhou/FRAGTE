@@ -98,3 +98,5 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 	
 	[MAG_Pairs_byTETRA.xls] the output fie of TETRA
 	
+# Support
+If you need some other scripts and other materials, please contact me via zhouyizhuang3@163.com
