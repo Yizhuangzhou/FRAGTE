@@ -44,11 +44,13 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 # Performance assessment
 ## Simulated genome
 1. FRAGTE Performance
+	
 	perl Scripts/Simulated_FRAGTE_Performance.pl [Data/Simulated_IntraSpecies.xls][indir][output|Sensitivity][output|NumStat][specificity]
 	
 	Note: the output file of determining phase should be named as: Ref_P*_Query_P#_Pairs_byFRAGTE.xls (*, % of reference genomes; #, % of query genome). For example, for references extrating 10% of genomes and queries extrating 20% of genomes, the output file of determining phase is Ref_P10_Query_P20_Pairs_byFRAGTE.xls. All Pairs by FRAGTE are within [indir]. 
 	
 2. TETRA Performance
+	
 	perl Scripts/Simulated_TETRA_Performance.pl [Data/Simulated_IntraSpecies.xls][TETRA.list][FRAGTE_Sensitivity.xls][output|Sensitivity][output|numstat][output|specificity]
 	
 	Note: 
@@ -60,24 +62,32 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 
 ## Real genome
 1. FRAGTE Performance
+	
 	perl Scripts/RealAssembly_FRAGTE_Performance.pl [Pairs byFRAGTE][Query GenomeInfo][Ref GenomeInfo][output]
 	
 	[TETRA.list] containing TETRA output file; one line for one file
 	
-	
 	[Pairs byFRAGTE] The output of FRAGTE
-	[Query GenomeInfo] The file containing 7 fields for queries (see above)
-	[Ref GenomeInfo] The file containing 7 fields for references (see above)
+	
+	[Query GenomeInfo] The file containing 7 fields for queries
+	
+	[Ref GenomeInfo] The file containing 7 fields for references
 	
 2. TETRA Performance	
+	
 	perl Scripts/RealAssembly_TETRA_Performance.pl [TETRA][Query_GenomeInfo.xls][Ref_GenomeInfo.xls][Num of intraspecies pairs sieved by FRAGTE][output]
+	
 	[TETRA] the output file for TETRA
+	
 	[Query GenomeInfo] The file containing 7 fields for queries
+	
 	[Ref GenomeInfo] The file containing 7 fields for references
+	
 	[Num] Num of intraspecies pairs sieved by FRAGTE
 	
 ## MAGs
 1. FRAGTE Performance
+	
 	perl Scripts/MAG_FRAGTE_Performance.pl [Data/MAG_IntraSpecies.xls][MAG_Pairs_byFRAGTE.xls][output]
 
 	[MAG_Pairs_byFRAGTE.xls] the output fie of FRAGTE
