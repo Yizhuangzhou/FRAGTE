@@ -4,9 +4,6 @@ A completeness-independent method for pre-selection of closely related genomes f
 # Please Cite
 If you use FRAGTE in your publication, please cite: 
 
-# Description
-FRAGTE and TETRA programs are in Bin directory; all tested data are in Data directory; other scripts are in Scripts directory.
-
 # Version
 1.0
 
@@ -26,6 +23,9 @@ FRAGTE was developed and maintained on Linux platform.
 # Installation
 FRAGTE was developed in Perl language. Therefore, it just needs to install the obove four Perl modules. If these Perl modules have been installed, you directly use FRAGTE. Otherwise, please type:
 ./autobuild_auxiliary
+
+# Description
+FRAGTE and TETRA programs are in Bin directory; all tested data are in Data directory; other scripts are in Scripts directory.
 
 # Usage
 ## FRAGTE
