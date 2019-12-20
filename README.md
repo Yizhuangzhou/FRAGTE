@@ -24,7 +24,7 @@ FRAGTE was developed and maintained on Linux platform.
 (./autobuild_auxiliary will use CPAN to check and install the other four Perl modules)
 
 # Installation
-FRAGTE was developed in Perl language. Therefore, it just needs to install the obove four Perl modules. If these Perl modules have been installed, you just need to run FRAGTE. Otherwise, please type:
+FRAGTE was developed in Perl language. Therefore, it just needs to install the obove four Perl modules. If these Perl modules have been installed, you directly use FRAGTE. Otherwise, please type:
 ./autobuild_auxiliary
 
 # Usage
