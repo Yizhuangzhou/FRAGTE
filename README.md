@@ -48,6 +48,7 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 
 ## TETRA
 1. Calculate z-values for references/Queries
+	
 	perl Bin/Zvalue.pl [GenomeInfo file] [output]
 	
 	[GenomeInfo file] has 7 fields, including:
@@ -56,9 +57,13 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 	Note: file for Genome,the file containing sequences in fasta format; one line for one genome.
 
 2. Calculate PCCDs for queries against references
+	
 	perl Bin/Pairs_byTETRA.pl [Ref_Zvalue.xls][Query_Zvalue.xls][output]
+	
 	[Ref_Zvalue.xls] Zvalue for references
+	
 	[Query_Zvalue.xls] Zvalue for queries
+	
 	[output] output file
 	
 # Performance assessment
