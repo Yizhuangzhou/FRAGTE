@@ -7,6 +7,26 @@ If you use FRAGTE in your publication, please cite:
 # Description
 FRAGTE and TETRA programs are in Bin directory; all tested data are in Data directory; other scripts are in Scripts directory.
 
+# Version
+1.0
+
+# Developer
+Yizhuang Zhou (zhouyizhuang3@163.com)
+
+# Affiliation
+Guilin Medical University
+
+# Support platform
+FRAGTE was developed and maintained on Linux platform.
+
+# Prerequisite
+1. Perl5 with CPAN, FindBin, File::Basename,POSIX and Time::Local modules
+(./autobuild_auxiliary will use CPAN to check and install the other four Perl modules)
+
+# Installation
+FRAGTE was developed in Perl language. Therefore, it just needs to install the obove four Perl modules. If these Perl modules have been installed, you just need to run FRAGTE. Otherwise, please type:
+./autobuild_auxiliary
+
 # Usage
 ## FRAGTE
 1. Fragmenting phase for references/Queries
@@ -99,4 +119,4 @@ FRAGTE and TETRA programs are in Bin directory; all tested data are in Data dire
 	[MAG_Pairs_byTETRA.xls] the output fie of TETRA
 	
 # Support
-If you need some other scripts and other materials, please contact me via zhouyizhuang3@163.com
+If you need some other scripts and other materials or encounter bugs, problems, or have any suggestions, please contact me via zhouyizhuang3@163.com
