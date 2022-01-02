@@ -3,6 +3,7 @@ A completeness-independent method for pre-selection of closely related genomes f
 
 # Please Cite
 If you use FRAGTE in your publication, please cite: 
+
 Zhou, Y., et al., A completeness-independent method for pre-selection of closely related genomes for species delineation in prokaryotes. BMC Genomics, 2020. 21(1): p. 183.
 
 # Version
